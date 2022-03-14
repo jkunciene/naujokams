@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+.container{
+    height: 100vh;    
+}
+h1{
+    color: rgba(19, 18, 18);
+    font-size: 4rem;
+}
+.container::before{
+    content: "";
+    background-image: url('foto.jpg');
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    opacity: 60%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
